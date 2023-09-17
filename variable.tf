@@ -1,25 +1,3 @@
-variable.tf
-
-variable "subscription_id" {
-   description = "Azure subscription"
-   default = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-}
-
-variable "client_id" {
-   description = "Azure Client ID"
-   default = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-}
-
-variable "client_secret" {
-   description = "Azure Client Secret"
-   default = "XXXXXXXXXXXXXXXXXX"
-}
-
-variable "tenant_id" {
-   description = "Azure Tenant ID"
-   default = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-}
-
 variable "location" {
    type = string
    description = "Region"
