@@ -20,12 +20,6 @@ variable "tenant_id" {
    default = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 }
 
-variable "instance_size" {
-   type = string
-   description = "Azure instance size"
-   default = "Standard_F2"
-}
-
 variable "location" {
    type = string
    description = "Region"
