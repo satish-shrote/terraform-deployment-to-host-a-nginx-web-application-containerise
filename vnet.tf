@@ -1,5 +1,3 @@
-vnet.tf 
-
 module "network" {
    source = "Azure/vnet/azurerm"
    version = "2.4.0"
