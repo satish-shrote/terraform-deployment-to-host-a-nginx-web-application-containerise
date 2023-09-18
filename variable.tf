@@ -9,8 +9,3 @@ variable "environment" {
    description = "Environment"
    default = "dev"
 }
-
-variable "instance_size" {
-   type = string
-   description = "Standard_F2"
-}
