@@ -2,9 +2,11 @@
 
 Commands:
 
-terraform plan
+terraform init -upgrade
 
 terraform validate
+
+terraform plan
 
 terraform apply
 
